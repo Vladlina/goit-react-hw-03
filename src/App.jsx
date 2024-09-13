@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div>
-      <h1 style={{ marginBottom: "12px", color: "#ba0021" }}>Phonebook</h1>
+      <h1 style={{ marginBottom: "12px", color: "black" }}>Phonebook</h1>
       <ContactForm onAdd={addContact} />
       <SearchBox value={search} onSearch={setSearch} />
       <ContactList contacts={visibleContacts} onDelete={deleteContact} />
